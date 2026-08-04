@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +12,56 @@
 
 <body>
 
-<div class="pantalla-inicio">
+    <!-- Pantalla de inicio -->
 
-    <div class="titulo">
+    <div id="inicio" class="pantalla-inicio">
 
-        <h1>PUNKPOLAR</h1>
+        <div class="titulo">
+            <h1>PUNKPOLAR</h1>
+            <p>Simulador de Cajero Automático</p>
+        </div>
 
-        <p>Simulador de Cajero Automático</p>
+        <button id="btnInicio">
+            Transacciones sin tarjeta
+        </button>
 
     </div>
 
-    <button id="btnInicio">
+    <!-- Cajero -->
 
-        Transacciones sin tarjeta
+    <div id="cajero" class="cajero">
 
-    </button>
+        <aside>
 
-</div>
+            <button class="menu-btn" id="cash">
+                Código CASH
+            </button>
+
+            <button class="menu-btn">
+                Depósito
+            </button>
+
+            <button class="menu-btn">
+                Pagos
+            </button>
+
+            <button class="menu-btn">
+                Nómina Móvil Popular
+            </button>
+
+        </aside>
+
+        <main id="contenido">
+
+            <h2>Bienvenido a PUNKPOLAR</h2>
+
+            <p>
+                Seleccione una opción del menú.
+            </p>
+
+        </main>
+
+    </div>
 
 <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 

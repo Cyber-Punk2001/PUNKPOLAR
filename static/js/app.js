@@ -1,7 +1,13 @@
+const inicio = document.getElementById("inicio");
+
+const cajero = document.getElementById("cajero");
+
 const boton = document.getElementById("btnInicio");
 
 boton.addEventListener("click", ()=>{
 
-    alert("Próximamente abrirá el menú de Transacciones sin tarjeta.");
+    inicio.style.display="none";
+
+    cajero.style.display="flex";
 
 });
