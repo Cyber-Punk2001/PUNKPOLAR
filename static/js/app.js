@@ -1,7 +1,7 @@
 const boton = document.getElementById("btnInicio");
 
-boton.addEventListener("click", function(){
+boton.addEventListener("click", ()=>{
 
-    alert("Bienvenido a las Transacciones sin tarjeta");
+    alert("Próximamente abrirá el menú de Transacciones sin tarjeta.");
 
 });
