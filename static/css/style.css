@@ -144,3 +144,71 @@ main p{
     font-size:20px;
 
 }
+
+/* Formulario */
+
+#formCash{
+
+    width:450px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-top:30px;
+
+}
+
+#formCash label{
+
+    margin-top:20px;
+
+    margin-bottom:8px;
+
+    font-size:18px;
+
+    color:#032b6b;
+
+    font-weight:bold;
+
+}
+
+#formCash input{
+
+    height:45px;
+
+    border-radius:8px;
+
+    border:1px solid #999;
+
+    padding-left:15px;
+
+    font-size:17px;
+
+}
+
+.continuar{
+
+    margin-top:35px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.continuar:hover{
+
+    background:#084db2;
+
+}
